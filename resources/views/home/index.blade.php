@@ -99,10 +99,10 @@
                 <div class="about-img-wrap">
                     <img src="temp/custom/assets/img/shape-1.png" alt="Image" class="about-shape-one">
                     <div class="about-img-one">
-                        <img src="temp/custom/assets/img/about/about-img-8.jpg" alt="William Lordell">
+                        <img src="temp/custom/assets/img/about/about-img-8.jpg" alt="Liam Philip">
                     </div>
                     <div class="about-img-two">
-                        <img src="temp/custom/assets/img/team/team-4.jpg" alt="Founder William Lordell">
+                        <img src="temp/custom/assets/img/team/team-4.jpg" alt="Founder Liam Philip">
                     </div>
                 </div>
             </div>
@@ -110,8 +110,8 @@
                 <div class="about-content">
                     <div class="content-title style1">
                         <span>ABOUT THE FOUNDER</span>
-                        <h2>Meet William Lordell</h2>
-                        <p>William Lordell is a visionary entrepreneur and leader who has dedicated his career
+                        <h2>Meet Liam Philip</h2>
+                        <p>Liam Philip is a visionary entrepreneur and leader who has dedicated his career
                             to reshaping how people connect with financial technology. With a passion for
                             innovation and a commitment to excellence, William has built a reputation for
                             delivering solutions that are simple, transparent, and designed with people in mind.</p>
