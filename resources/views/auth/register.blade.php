@@ -330,7 +330,7 @@
                                                 required>
                                                 <option value="" disabled selected>Select your currency</option>
                                                 <option value="AED" {{ old('currency')=='AED' ? 'selected' : '' }}>AED -
-                                                    United Arab Emirates Dirham</option>
+                                                    UAE Dirham</option>
                                                 <option value="AFN" {{ old('currency')=='AFN' ? 'selected' : '' }}>AFN -
                                                     Afghan Afghani</option>
                                                 <option value="ALL" {{ old('currency')=='ALL' ? 'selected' : '' }}>ALL -
@@ -374,7 +374,7 @@
                                                 <option value="BTN" {{ old('currency')=='BTN' ? 'selected' : '' }}>BTN -
                                                     Bhutanese Ngultrum</option>
                                                 <option value="BWP" {{ old('currency')=='BWP' ? 'selected' : '' }}>BWP -
-                                                    Botswanan Pula</option>
+                                                    Botswana Pula</option>
                                                 <option value="BYN" {{ old('currency')=='BYN' ? 'selected' : '' }}>BYN -
                                                     Belarusian Ruble</option>
                                                 <option value="BZD" {{ old('currency')=='BZD' ? 'selected' : '' }}>BZD -
@@ -416,13 +416,17 @@
                                                 <option value="EUR" {{ old('currency')=='EUR' ? 'selected' : '' }}>EUR -
                                                     Euro</option>
                                                 <option value="FJD" {{ old('currency')=='FJD' ? 'selected' : '' }}>FJD -
-                                                    Fijian Dollar</option>
+                                                    Fiji Dollar</option>
+                                                <option value="FKP" {{ old('currency')=='FKP' ? 'selected' : '' }}>FKP -
+                                                    Falkland Islands Pound</option>
                                                 <option value="GBP" {{ old('currency')=='GBP' ? 'selected' : '' }}>GBP -
                                                     British Pound</option>
                                                 <option value="GEL" {{ old('currency')=='GEL' ? 'selected' : '' }}>GEL -
                                                     Georgian Lari</option>
                                                 <option value="GHS" {{ old('currency')=='GHS' ? 'selected' : '' }}>GHS -
                                                     Ghanaian Cedi</option>
+                                                <option value="GIP" {{ old('currency')=='GIP' ? 'selected' : '' }}>GIP -
+                                                    Gibraltar Pound</option>
                                                 <option value="GMD" {{ old('currency')=='GMD' ? 'selected' : '' }}>GMD -
                                                     Gambian Dalasi</option>
                                                 <option value="GNF" {{ old('currency')=='GNF' ? 'selected' : '' }}>GNF -
@@ -430,7 +434,7 @@
                                                 <option value="GTQ" {{ old('currency')=='GTQ' ? 'selected' : '' }}>GTQ -
                                                     Guatemalan Quetzal</option>
                                                 <option value="GYD" {{ old('currency')=='GYD' ? 'selected' : '' }}>GYD -
-                                                    Guyanaese Dollar</option>
+                                                    Guyanese Dollar</option>
                                                 <option value="HKD" {{ old('currency')=='HKD' ? 'selected' : '' }}>HKD -
                                                     Hong Kong Dollar</option>
                                                 <option value="HNL" {{ old('currency')=='HNL' ? 'selected' : '' }}>HNL -
@@ -444,7 +448,7 @@
                                                 <option value="IDR" {{ old('currency')=='IDR' ? 'selected' : '' }}>IDR -
                                                     Indonesian Rupiah</option>
                                                 <option value="ILS" {{ old('currency')=='ILS' ? 'selected' : '' }}>ILS -
-                                                    Israeli New Shekel</option>
+                                                    Israeli Shekel</option>
                                                 <option value="INR" {{ old('currency')=='INR' ? 'selected' : '' }}>INR -
                                                     Indian Rupee</option>
                                                 <option value="IQD" {{ old('currency')=='IQD' ? 'selected' : '' }}>IQD -
@@ -462,11 +466,15 @@
                                                 <option value="KES" {{ old('currency')=='KES' ? 'selected' : '' }}>KES -
                                                     Kenyan Shilling</option>
                                                 <option value="KGS" {{ old('currency')=='KGS' ? 'selected' : '' }}>KGS -
-                                                    Kyrgystani Som</option>
+                                                    Kyrgyzstani Som</option>
                                                 <option value="KHR" {{ old('currency')=='KHR' ? 'selected' : '' }}>KHR -
                                                     Cambodian Riel</option>
+                                                <option value="KID" {{ old('currency')=='KID' ? 'selected' : '' }}>KID -
+                                                    Kiribati Dollar</option>
                                                 <option value="KMF" {{ old('currency')=='KMF' ? 'selected' : '' }}>KMF -
                                                     Comorian Franc</option>
+                                                <option value="KPW" {{ old('currency')=='KPW' ? 'selected' : '' }}>KPW -
+                                                    North Korean Won</option>
                                                 <option value="KRW" {{ old('currency')=='KRW' ? 'selected' : '' }}>KRW -
                                                     South Korean Won</option>
                                                 <option value="KWD" {{ old('currency')=='KWD' ? 'selected' : '' }}>KWD -
@@ -476,7 +484,7 @@
                                                 <option value="KZT" {{ old('currency')=='KZT' ? 'selected' : '' }}>KZT -
                                                     Kazakhstani Tenge</option>
                                                 <option value="LAK" {{ old('currency')=='LAK' ? 'selected' : '' }}>LAK -
-                                                    Laotian Kip</option>
+                                                    Lao Kip</option>
                                                 <option value="LBP" {{ old('currency')=='LBP' ? 'selected' : '' }}>LBP -
                                                     Lebanese Pound</option>
                                                 <option value="LKR" {{ old('currency')=='LKR' ? 'selected' : '' }}>LKR -
@@ -540,11 +548,11 @@
                                                 <option value="PKR" {{ old('currency')=='PKR' ? 'selected' : '' }}>PKR -
                                                     Pakistani Rupee</option>
                                                 <option value="PLN" {{ old('currency')=='PLN' ? 'selected' : '' }}>PLN -
-                                                    Polish Zloty</option>
+                                                    Polish Złoty</option>
                                                 <option value="PYG" {{ old('currency')=='PYG' ? 'selected' : '' }}>PYG -
-                                                    Paraguayan Guarani</option>
+                                                    Paraguayan Guaraní</option>
                                                 <option value="QAR" {{ old('currency')=='QAR' ? 'selected' : '' }}>QAR -
-                                                    Qatari Rial</option>
+                                                    Qatari Riyal</option>
                                                 <option value="RON" {{ old('currency')=='RON' ? 'selected' : '' }}>RON -
                                                     Romanian Leu</option>
                                                 <option value="RSD" {{ old('currency')=='RSD' ? 'selected' : '' }}>RSD -
@@ -567,8 +575,10 @@
                                                     Singapore Dollar</option>
                                                 <option value="SHP" {{ old('currency')=='SHP' ? 'selected' : '' }}>SHP -
                                                     Saint Helena Pound</option>
-                                                <option value="SLL" {{ old('currency')=='SLL' ? 'selected' : '' }}>SLL -
+                                                <option value="SLE" {{ old('currency')=='SLE' ? 'selected' : '' }}>SLE -
                                                     Sierra Leonean Leone</option>
+                                                <option value="SLL" {{ old('currency')=='SLL' ? 'selected' : '' }}>SLL -
+                                                    Sierra Leonean Leone (old)</option>
                                                 <option value="SOS" {{ old('currency')=='SOS' ? 'selected' : '' }}>SOS -
                                                     Somali Shilling</option>
                                                 <option value="SRD" {{ old('currency')=='SRD' ? 'selected' : '' }}>SRD -
@@ -582,7 +592,7 @@
                                                 <option value="SYP" {{ old('currency')=='SYP' ? 'selected' : '' }}>SYP -
                                                     Syrian Pound</option>
                                                 <option value="SZL" {{ old('currency')=='SZL' ? 'selected' : '' }}>SZL -
-                                                    Swazi Lilangeni</option>
+                                                    Eswatini Lilangeni</option>
                                                 <option value="THB" {{ old('currency')=='THB' ? 'selected' : '' }}>THB -
                                                     Thai Baht</option>
                                                 <option value="TJS" {{ old('currency')=='TJS' ? 'selected' : '' }}>TJS -
@@ -597,6 +607,8 @@
                                                     Turkish Lira</option>
                                                 <option value="TTD" {{ old('currency')=='TTD' ? 'selected' : '' }}>TTD -
                                                     Trinidad and Tobago Dollar</option>
+                                                <option value="TVD" {{ old('currency')=='TVD' ? 'selected' : '' }}>TVD -
+                                                    Tuvaluan Dollar</option>
                                                 <option value="TWD" {{ old('currency')=='TWD' ? 'selected' : '' }}>TWD -
                                                     New Taiwan Dollar</option>
                                                 <option value="TZS" {{ old('currency')=='TZS' ? 'selected' : '' }}>TZS -
@@ -610,11 +622,11 @@
                                                 <option value="UYU" {{ old('currency')=='UYU' ? 'selected' : '' }}>UYU -
                                                     Uruguayan Peso</option>
                                                 <option value="UZS" {{ old('currency')=='UZS' ? 'selected' : '' }}>UZS -
-                                                    Uzbekistan Som</option>
+                                                    Uzbekistani Som</option>
                                                 <option value="VES" {{ old('currency')=='VES' ? 'selected' : '' }}>VES -
-                                                    Venezuelan Bolívar Soberano</option>
+                                                    Venezuelan Bolívar</option>
                                                 <option value="VND" {{ old('currency')=='VND' ? 'selected' : '' }}>VND -
-                                                    Vietnamese Dong</option>
+                                                    Vietnamese Đồng</option>
                                                 <option value="VUV" {{ old('currency')=='VUV' ? 'selected' : '' }}>VUV -
                                                     Vanuatu Vatu</option>
                                                 <option value="WST" {{ old('currency')=='WST' ? 'selected' : '' }}>WST -
@@ -623,6 +635,8 @@
                                                     Central African CFA Franc</option>
                                                 <option value="XCD" {{ old('currency')=='XCD' ? 'selected' : '' }}>XCD -
                                                     East Caribbean Dollar</option>
+                                                <option value="XDR" {{ old('currency')=='XDR' ? 'selected' : '' }}>XDR -
+                                                    Special Drawing Rights</option>
                                                 <option value="XOF" {{ old('currency')=='XOF' ? 'selected' : '' }}>XOF -
                                                     West African CFA Franc</option>
                                                 <option value="XPF" {{ old('currency')=='XPF' ? 'selected' : '' }}>XPF -
