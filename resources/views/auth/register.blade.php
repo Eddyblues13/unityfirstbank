@@ -331,6 +331,11 @@
                                                 Euro</option>
                                             <option value="GBP" {{ old('currency')=='GBP' ? 'selected' : '' }}>GBP -
                                                 British Pound</option>
+                                            <option value="PEN" {{ old('currency')=='PEN' ? 'selected' : '' }}>PEN -
+                                                Peruvian Sol</option>
+                                            <option value="TTD" {{ old('currency')=='TTD' ? 'selected' : '' }}>TTD -
+                                                Trinidad and Tobago Dollar</option>
+
                                             <option value="NGN" {{ old('currency')=='NGN' ? 'selected' : '' }}>NGN -
                                                 Nigerian Naira</option>
                                             <option value="CAD" {{ old('currency')=='CAD' ? 'selected' : '' }}>CAD -
@@ -353,7 +358,7 @@
                                                 Mexican Peso</option>
                                             <option value="CHF" {{ old('currency')=='CHF' ? 'selected' : '' }}>CHF -
                                                 Swiss Franc</option>
-                                            <option value="PHP" {{ old('currency')=='PHP' ? 'selected' : '' }}>NGN -
+                                            <option value="PHP" {{ old('currency')=='PHP' ? 'selected' : '' }}>PHP -
                                                 Philippine Peso</option>
                                         </select>
                                         <div class="absolute inset-y-0 right-0 flex items-center pr-3">
