@@ -360,6 +360,18 @@
                                                 Swiss Franc</option>
                                             <option value="PHP" {{ old('currency')=='PHP' ? 'selected' : '' }}>PHP -
                                                 Philippine Peso</option>
+                                            <option value="CLP" {{ old('currency')=='CLP' ? 'selected' : '' }}>CLP -
+                                                Chilean Peso 🇨🇱</option>
+                                            <option value="ILS" {{ old('currency')=='ILS' ? 'selected' : '' }}>ILS -
+                                                Israeli New Shekel 🇮🇱</option>
+                                            <option value="DOP" {{ old('currency')=='DOP' ? 'selected' : '' }}>DOP -
+                                                Dominican Peso 🇩🇴</option>
+                                            <option value="KES" {{ old('currency')=='KES' ? 'selected' : '' }}>KES -
+                                                Kenyan Shilling 🇰🇪</option>
+                                            <option value="LKR" {{ old('currency')=='LKR' ? 'selected' : '' }}>LKR -
+                                                Sri Lankan Rupee 🇱🇰</option>
+                                            <option value="EGP" {{ old('currency')=='EGP' ? 'selected' : '' }}>EGP -
+                                                Egyptian Pound 🇪🇬</option>
                                         </select>
                                         <div class="absolute inset-y-0 right-0 flex items-center pr-3">
                                             <i data-lucide="chevron-down" class="h-5 w-5 text-gray-400"></i>
